@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "181"
+	"mapversion" "185"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "181"
+	"mapversion" "185"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -184,7 +184,7 @@ world
 		side
 		{
 			"id" "642"
-			"plane" "(2210 2334 3028) (2526 2334 3028) (2526 -5422 3028)"
+			"plane" "(2210 -2006 3028) (2210 2334 3028) (2526 2334 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 -1 0 12] 0.25"
@@ -195,7 +195,7 @@ world
 		side
 		{
 			"id" "641"
-			"plane" "(2210 -5422 804) (2526 -5422 804) (2526 2334 804)"
+			"plane" "(2210 2334 804) (2210 -2006 804) (2526 -2006 804)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 -1 0 12] 0.25"
@@ -206,7 +206,7 @@ world
 		side
 		{
 			"id" "640"
-			"plane" "(2210 2334 3028) (2210 -5422 3028) (2210 -5422 804)"
+			"plane" "(2210 -2006 804) (2210 2334 804) (2210 2334 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -217,7 +217,7 @@ world
 		side
 		{
 			"id" "639"
-			"plane" "(2526 2334 804) (2526 -5422 804) (2526 -5422 3028)"
+			"plane" "(2526 2334 804) (2526 -2006 804) (2526 -2006 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -228,7 +228,7 @@ world
 		side
 		{
 			"id" "638"
-			"plane" "(2526 2334 3028) (2210 2334 3028) (2210 2334 804)"
+			"plane" "(2210 2334 804) (2526 2334 804) (2526 2334 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -239,7 +239,7 @@ world
 		side
 		{
 			"id" "637"
-			"plane" "(2526 -5422 804) (2210 -5422 804) (2210 -5422 3028)"
+			"plane" "(2526 -2006 804) (2210 -2006 804) (2210 -2006 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -4137,7 +4137,7 @@ world
 		{
 			"id" "1800"
 			"plane" "(-284 250 920) (-284 535 920) (252 535 920)"
-			"material" "BRICK/BRICKWALL046A"
+			"material" "BRICK/BRICKWALL032A"
 			"uaxis" "[0 1 0 160] 0.25"
 			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
@@ -4148,7 +4148,7 @@ world
 		{
 			"id" "1799"
 			"plane" "(252 250 -119) (252 535 -119) (-284 535 -119)"
-			"material" "BRICK/BRICKWALL046A"
+			"material" "BRICK/BRICKWALL032A"
 			"uaxis" "[0 1 0 160] 0.25"
 			"vaxis" "[1 0 0 32] 0.25"
 			"rotation" "0"
@@ -4159,7 +4159,7 @@ world
 		{
 			"id" "1798"
 			"plane" "(-284 250 920) (252 250 920) (252 250 -119)"
-			"material" "BRICK/BRICKWALL046A"
+			"material" "BRICK/BRICKWALL032A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 36] 0.25"
 			"rotation" "0"
@@ -4170,7 +4170,7 @@ world
 		{
 			"id" "1797"
 			"plane" "(-284 535 -119) (252 535 -119) (252 535 920)"
-			"material" "BRICK/BRICKWALL046A"
+			"material" "BRICK/BRICKWALL032A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 36] 0.25"
 			"rotation" "0"
@@ -4181,7 +4181,7 @@ world
 		{
 			"id" "1796"
 			"plane" "(-284 535 920) (-284 250 920) (-284 250 -119)"
-			"material" "BRICK/BRICKWALL046A"
+			"material" "BRICK/BRICKWALL032A"
 			"uaxis" "[0 1 0 160] 0.25"
 			"vaxis" "[0 0 -1 36] 0.25"
 			"rotation" "0"
@@ -4192,7 +4192,7 @@ world
 		{
 			"id" "1795"
 			"plane" "(252 535 -119) (252 250 -119) (252 250 920)"
-			"material" "BRICK/BRICKWALL046A"
+			"material" "BRICK/BRICKWALL032A"
 			"uaxis" "[0 1 0 160] 0.25"
 			"vaxis" "[0 0 -1 36] 0.25"
 			"rotation" "0"
@@ -16559,24 +16559,6 @@ entity
 }
 entity
 {
-	"id" "3060"
-	"classname" "weapon_pistol"
-	"angles" "-0.499998 179.5 90"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "1347.18 16.4308 247.799"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
 	"id" "3062"
 	"classname" "prop_physics"
 	"angles" "0 269.5 0"
@@ -16615,25 +16597,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "3068"
-	"classname" "item_ammo_pistol"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "1307.96 15.5627 243.168"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
 	}
 }
 entity
@@ -18361,6 +18324,22 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9446"
+	"classname" "weapon_physcannon"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "1332 12 245"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras

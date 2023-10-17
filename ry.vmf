@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "182"
+	"mapversion" "186"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "182"
+	"mapversion" "186"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -184,7 +184,7 @@ world
 		side
 		{
 			"id" "642"
-			"plane" "(2210 2334 3028) (2526 2334 3028) (2526 -5422 3028)"
+			"plane" "(2210 -2006 3028) (2210 2334 3028) (2526 2334 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 -1 0 12] 0.25"
@@ -195,7 +195,7 @@ world
 		side
 		{
 			"id" "641"
-			"plane" "(2210 -5422 804) (2526 -5422 804) (2526 2334 804)"
+			"plane" "(2210 2334 804) (2210 -2006 804) (2526 -2006 804)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 -1 0 12] 0.25"
@@ -206,7 +206,7 @@ world
 		side
 		{
 			"id" "640"
-			"plane" "(2210 2334 3028) (2210 -5422 3028) (2210 -5422 804)"
+			"plane" "(2210 -2006 804) (2210 2334 804) (2210 2334 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -217,7 +217,7 @@ world
 		side
 		{
 			"id" "639"
-			"plane" "(2526 2334 804) (2526 -5422 804) (2526 -5422 3028)"
+			"plane" "(2526 2334 804) (2526 -2006 804) (2526 -2006 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -228,7 +228,7 @@ world
 		side
 		{
 			"id" "638"
-			"plane" "(2526 2334 3028) (2210 2334 3028) (2210 2334 804)"
+			"plane" "(2210 2334 804) (2526 2334 804) (2526 2334 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -239,7 +239,7 @@ world
 		side
 		{
 			"id" "637"
-			"plane" "(2526 -5422 804) (2210 -5422 804) (2210 -5422 3028)"
+			"plane" "(2526 -2006 804) (2210 -2006 804) (2210 -2006 3028)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 12] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -16204,7 +16204,7 @@ entity
 	"spawnflags" "16925188"
 	"targetname" "Police2"
 	"waitingtorappel" "No"
-	"origin" "-23 -378 64"
+	"origin" "-34 -380 64"
 	editor
 	{
 		"color" "0 200 200"
@@ -16559,24 +16559,6 @@ entity
 }
 entity
 {
-	"id" "3060"
-	"classname" "weapon_pistol"
-	"angles" "-0.499998 179.5 90"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "1347.18 16.4308 247.799"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
 	"id" "3062"
 	"classname" "prop_physics"
 	"angles" "0 269.5 0"
@@ -16615,25 +16597,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "3068"
-	"classname" "item_ammo_pistol"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "1307.96 15.5627 243.168"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
 	}
 }
 entity
@@ -18361,6 +18324,22 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9446"
+	"classname" "weapon_physcannon"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "1332 12 245"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
